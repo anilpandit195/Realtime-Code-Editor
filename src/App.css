@@ -1,0 +1,82 @@
+.homepageback {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.homepageform {
+  background: #282a36;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.footer a {
+  color: #4aee88
+}
+
+.inputgroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+
+}
+
+.homepagelogo {
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-bottom: 14px;
+  background-color: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinbtn {
+  background-color: #4aee88;
+  width: 100px;
+  margin-left: auto;
+}
+
+.joinbtn:hover {
+  background-color: #27ba5f;
+  opacity: 0.8;
+}
+
+.creatinfo {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.newroom {
+  color: #4aee88;
+  text-decoration: none;
+}
